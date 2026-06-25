@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Blog | Manju George</title>
+
+<style>
+
+body{
+    font-family:Arial,sans-serif;
+    margin:0;
+    padding:0;
+    background:#f4f6f8;
+}
+
+nav{
+    background:#003366;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-right:20px;
+    font-weight:bold;
+    padding:8px 12px;
+    border-radius:5px;
+}
+
+nav a:hover{
+    background:#00509e;
+}
+
+nav a.active{
+    background:white;
+    color:#003366;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:30px;
+}
+
+h1{
+    color:#003366;
+}
+
+h2{
+    color:#003366;
+    border-bottom:2px solid #003366;
+    padding-bottom:8px;
+}
+
+.card{
+    background:white;
+    margin-top:20px;
+    padding:25px;
+    border-radius:8px;
+    box-shadow:0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.btn{
+    display:inline-block;
+    margin-top:10px;
+    padding:10px 15px;
+    background:#003366;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="innovation.html">Innovation</a>
+<a href="mentoring.html">Mentoring & Coaching</a>
+<a href="consultancy.html">Consultancy</a>
+<a href="public-influencer.html">Public Influencer</a>
+<a href="blog.html" class="active">Blog</a>
+</nav>
+
+<div class="container">
+
+<h1>Technical Articles & Blogs</h1>
+
+<p>
+I regularly share practical insights on enterprise software engineering,
+cloud-native architecture, artificial intelligence, Spring Boot,
+Angular development, and software engineering best practices through
+technical articles and blogs.
+</p>
+
+<h2>Featured Articles</h2>
+
+<div class="card">
+
+<h3>
+Designing Better Spring Boot Applications with Smart Dependency Injection
+</h3>
+
+<p>
+This article discusses dependency injection best practices for
+building maintainable, scalable, and testable Spring Boot applications,
+covering design principles, modular architecture, and practical examples.
+</p>
+
+<a class="btn"
+href="https://dev.to/manju_george_bca224c066e1/designing-better-spring-boot-applications-with-smart-dependency-injection-4o7m"
+target="_blank">
+Read on Dev.to
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>
+Smart Deployment Strategies for Modern Applications
+</h3>
+
+<p>
+This article explores modern software deployment approaches,
+including deployment strategies that improve reliability,
+availability, and scalability in enterprise applications.
+</p>
+
+<a class="btn"
+href="https://dzone.com/articles/application-deployment-strategies"
+target="_blank">
+Read on DZone
+</a>
+
+</div>
+
+<h2>Topics I Write About</h2>
+
+<div class="card">
+
+<ul>
+
+<li>Enterprise Software Architecture</li>
+
+<li>Angular Framework Development</li>
+
+<li>Spring Boot and Java</li>
+
+<li>Artificial Intelligence</li>
+
+<li>Healthcare Software Engineering</li>
+
+<li>Cloud-Native Architecture</li>
+
+<li>Microservices</li>
+
+<li>Cybersecurity</li>
+
+<li>High Performance Computing</li>
+
+<li>Software Engineering Best Practices</li>
+
+</ul>
+
+</div>
+
+<h2>Future Articles</h2>
+
+<div class="card">
+
+<p>
+I continue to publish technical content covering emerging
+software engineering practices, artificial intelligence,
+enterprise architecture, cloud technologies, and secure
+software development.
+</p>
+
+</div>
+
+</div>
+
+<footer style="margin-top:50px;padding:20px;background:#003366;color:white;text-align:center;">
+© 2026 Manju George. All rights reserved.
+</footer>
+
+</body>
+</html>
